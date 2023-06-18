@@ -11,7 +11,7 @@ export default function ImageItem({ image }) {
     <li className='image-item'>
       <a href ='#'>
         <figure className='image'>
-          <img src={image.url} alt={image.alt} />
+          <img src={image.url} alt={image.alt} loading ="lazy" />
 
         </figure>
       </a>
